@@ -1,0 +1,72 @@
+  #PH-Border{
+    background-color: rgb(8, 24, 24);
+    
+    width: 300px;
+    height: 600px;
+    padding: 10;
+    border-radius: 30px;
+    box-shadow: -1px -2px gold, 2px 5px grey;
+    position: relative
+    
+  }
+
+  #screen{
+    background-color: rgb(17, 44, 66);
+    width: 275px;
+    height: 480px;
+    top: 10%;
+    left: 3%;
+    position: absolute;
+  }
+
+  body{
+   margin: 10%;
+   background-color: black;
+  }
+
+  #mic{
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: rgb(17, 44, 66);
+    top: 25px;
+    left: 123px;
+    z-index:1000;
+    position: absolute;
+    
+  }
+
+  #camera{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    top: 18px;
+    left: 100px;
+    background-color: rgb(17, 44, 66) ;
+    position: absolute;
+    
+  }
+
+  #cam{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    top: 7px;
+    left: 145px;
+    background-color: rgb(17, 44, 66) ;
+    position: absolute;
+    
+  }
+
+  #button{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 555px;
+    left: 136px;
+    box-shadow: -1px -1px gold, 1px 1px rgb(134, 133, 128);
+
+  }
+  
